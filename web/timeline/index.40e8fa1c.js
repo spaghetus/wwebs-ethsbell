@@ -1,0 +1,2 @@
+!function(){let e;function n(){document.querySelector("nav").classList.remove("hidden"),document.querySelector("nav").classList.add("shown"),e&&clearTimeout(e),e=setTimeout(t,5e3)}function t(){(window.innerWidth>576||document.querySelector("nav").classList.contains("show"))&&(document.querySelector("nav").classList.remove("shown"),document.querySelector("nav").classList.add("hidden"))}window.addEventListener("mousemove",n),n()}();
+//# sourceMappingURL=index.40e8fa1c.js.map

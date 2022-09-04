@@ -1,0 +1,2 @@
+function t(t){return document.querySelector(`#${t}`)}Object.assign(window,{$:t,request:async function(e,n,r){n={headers:{Authorization:Authorization},...n};const i=await fetch(e,n).catch((t=>{}));if(r){if(!i)throw t(r).innerHTML="Failed to fetch",new Error("Failed to fetch");if(i.ok)return t(r).innerHTML="",!0;const e=`Failed with ${i.status}: ${await i.text()}`;throw t(r).innerHTML=e,new Error(e)}return i&&i.ok}});
+//# sourceMappingURL=index.f63c606f.js.map

@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+const fs = require('fs')
+
+let spec = JSON.parse(fs.readFileSync("../spec"))
+
+let today = new Date(Date.now())
+
+let weekday = today.getDay();
+let schedule_id = spec.typical_schedule[weekday];
+let schedule = spec.schedule_types[schedule_id]
+
+for (period of schedule.periods) {
+	let [s_hour, s_minute, s_second] = period.start.split(".")
+	let start = new Date(Date.now())
+	start.setHours(s_hour, s_minute, s_second)
+	let [e_hour, e_minute, e_second] = period.end.split(".")
+	end.setHours(e_hour, e_minute, e_second)
+	period.start_timestamp = start.getTime() / 1000
+	period.end_timestamp = end.getTime() / 1000
+}
+
+console.error("status 200")
+console.error("header Content-Type text/json")
+
+console.log(JSON.stringify(schedule))

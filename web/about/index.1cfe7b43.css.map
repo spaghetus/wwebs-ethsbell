@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["about/index.1cfe7b43.css","frontend/about/index.css"],"sourcesContent":["nav.abs {\n  position: unset !important;\n}\n\n/*# sourceMappingURL=index.1cfe7b43.css.map */\n","nav.abs {\n\tposition: unset !important;\n}\n"],"names":[],"version":3,"file":"index.1cfe7b43.css.map"}

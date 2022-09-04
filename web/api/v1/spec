@@ -1,0 +1,1324 @@
+{
+	"calendar_urls": [
+		"https://www.eths.k12.il.us/site/handlers/icalfeed.ashx?MIID=1",
+		"https://calendar.google.com/calendar/ical/c_2grbomp971179cnol52ldia1v0%40group.calendar.google.com/public/basic.ics"
+	],
+	"schedule_types": {
+		"half_day_orange_day": {
+			"friendly_name": "Half Day Orange",
+			"periods": [
+				{
+					"friendly_name": "Early Bird",
+					"start": "07:10:00",
+					"start_timestamp": 0,
+					"end": "07:50:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "EarlyBird"
+					}
+				},
+				{
+					"friendly_name": "AM Support",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": "AMSupport"
+				},
+				{
+					"friendly_name": "Block 1",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "09:18:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block1"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "09:23:00",
+					"start_timestamp": 0,
+					"end": "10:11:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block3"
+					}
+				},
+				{
+					"friendly_name": "Block 5",
+					"start": "10:16:00",
+					"start_timestamp": 0,
+					"end": "11:04:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "11:09:00",
+					"start_timestamp": 0,
+					"end": "12:00:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block7"
+					}
+				}
+			],
+			"regex": "Half Day Orange",
+			"color": [
+				130,
+				47,
+				13
+			],
+			"hide": false
+		},
+		"first_day_2021": {
+			"friendly_name": "First Day of School",
+			"periods": [
+				{
+					"friendly_name": "Freshmen Assembly",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Assembly"
+					}
+				},
+				{
+					"friendly_name": "Block 1",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "08:45:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block1"
+					}
+				},
+				{
+					"friendly_name": "Block 2",
+					"start": "08:50:00",
+					"start_timestamp": 0,
+					"end": "09:05:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block2"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "09:10:00",
+					"start_timestamp": 0,
+					"end": "09:25:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block3"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "09:30:00",
+					"start_timestamp": 0,
+					"end": "09:45:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block4"
+					}
+				},
+				{
+					"friendly_name": "Block 5",
+					"start": "09:50:00",
+					"start_timestamp": 0,
+					"end": "10:05:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Block 6",
+					"start": "10:10:00",
+					"start_timestamp": 0,
+					"end": "10:25:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "10:30:00",
+					"start_timestamp": 0,
+					"end": "10:45:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block7"
+					}
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "10:50:00",
+					"start_timestamp": 0,
+					"end": "11:05:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block8"
+					}
+				},
+				{
+					"friendly_name": "Lunch",
+					"start": "11:10:00",
+					"start_timestamp": 0,
+					"end": "11:40:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 1",
+					"start": "12:15:00",
+					"start_timestamp": 0,
+					"end": "12:40:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block1"
+					}
+				},
+				{
+					"friendly_name": "Block 2",
+					"start": "12:45:00",
+					"start_timestamp": 0,
+					"end": "13:00:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block2"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "13:05:00",
+					"start_timestamp": 0,
+					"end": "13:20:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block3"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "13:25:00",
+					"start_timestamp": 0,
+					"end": "13:40:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block4"
+					}
+				},
+				{
+					"friendly_name": "Block 5",
+					"start": "13:45:00",
+					"start_timestamp": 0,
+					"end": "14:00:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Block 6",
+					"start": "14:05:00",
+					"start_timestamp": 0,
+					"end": "14:20:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "14:25:00",
+					"start_timestamp": 0,
+					"end": "14:40:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block7"
+					}
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "14:45:00",
+					"start_timestamp": 0,
+					"end": "15:00:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block8"
+					}
+				}
+			],
+			"regex": "First Day of School",
+			"color": [
+				77,
+				171,
+				171
+			],
+			"hide": true
+		},
+		"late_start_orange": {
+			"friendly_name": "Late Start Orange Day",
+			"periods": [
+				{
+					"friendly_name": "Block 1",
+					"start": "09:35:00",
+					"start_timestamp": 0,
+					"end": "10:45:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block1"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "10:55:00",
+					"start_timestamp": 0,
+					"end": "12:05:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block3"
+					}
+				},
+				{
+					"friendly_name": "Lunch 1",
+					"start": "12:15:00",
+					"start_timestamp": 0,
+					"end": "12:55:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 5A",
+					"start": "12:15:00",
+					"start_timestamp": 0,
+					"end": "13:25:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "12:55:00",
+					"start_timestamp": 0,
+					"end": "13:05:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Block 5B",
+					"start": "13:05:00",
+					"start_timestamp": 0,
+					"end": "14:15:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "13:25:00",
+					"start_timestamp": 0,
+					"end": "13:35:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Lunch 2",
+					"start": "13:35:00",
+					"start_timestamp": 0,
+					"end": "14:15:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "14:25:00",
+					"start_timestamp": 0,
+					"end": "15:35:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block7"
+					}
+				}
+			],
+			"regex": "Late Start Orange",
+			"color": [
+				130,
+				47,
+				13
+			],
+			"hide": false
+		},
+		"summer_school": {
+			"friendly_name": "Summer School",
+			"periods": [
+				{
+					"friendly_name": "Full Day Courses",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "13:35:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "summer_school_full_day"
+					}
+				},
+				{
+					"friendly_name": "Morning Courses",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "10:30:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "summer_school_morning"
+					}
+				},
+				{
+					"friendly_name": "Lunch A",
+					"start": "10:30:00",
+					"start_timestamp": 0,
+					"end": "11:00:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Lunch B",
+					"start": "11:05:00",
+					"start_timestamp": 0,
+					"end": "11:35:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Afternoon Courses",
+					"start": "11:05:00",
+					"start_timestamp": 0,
+					"end": "13:35:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "summer_school_afternoon"
+					}
+				}
+			],
+			"regex": "Summer-School",
+			"color": [
+				224,
+				202,
+				60
+			],
+			"hide": false
+		},
+		"async_blue_day": {
+			"friendly_name": "Asynchronous Blue Day",
+			"periods": [
+				{
+					"friendly_name": "Blocks 2/4/6/8",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "15:30:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "BlueDayAsync"
+					}
+				}
+			],
+			"regex": "ASYNC BLUE",
+			"color": [
+				0,
+				92,
+				191
+			],
+			"hide": true
+		},
+		"blue_day": {
+			"friendly_name": "Blue Day",
+			"periods": [
+				{
+					"friendly_name": "Early Bird",
+					"start": "07:10:00",
+					"start_timestamp": 0,
+					"end": "07:50:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "EarlyBird"
+					}
+				},
+				{
+					"friendly_name": "AM Support",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": "AMSupport"
+				},
+				{
+					"friendly_name": "Block 2",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "09:55:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block2"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "10:05:00",
+					"start_timestamp": 0,
+					"end": "11:30:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block4"
+					}
+				},
+				{
+					"friendly_name": "Lunch 1",
+					"start": "11:40:00",
+					"start_timestamp": 0,
+					"end": "12:20:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 6A",
+					"start": "11:40:00",
+					"start_timestamp": 0,
+					"end": "13:05:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "12:20:00",
+					"start_timestamp": 0,
+					"end": "12:30:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Block 6B",
+					"start": "12:30:00",
+					"start_timestamp": 0,
+					"end": "13:55:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "13:05:00",
+					"start_timestamp": 0,
+					"end": "13:15:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Lunch 2",
+					"start": "13:15:00",
+					"start_timestamp": 0,
+					"end": "13:55:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "14:05:00",
+					"start_timestamp": 0,
+					"end": "15:35:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block8"
+					}
+				}
+			],
+			"regex": "FORCE BLUE DAY",
+			"color": [
+				0,
+				123,
+				255
+			],
+			"hide": false
+		},
+		"orange_day": {
+			"friendly_name": "Orange Day",
+			"periods": [
+				{
+					"friendly_name": "Early Bird",
+					"start": "07:10:00",
+					"start_timestamp": 0,
+					"end": "07:50:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "EarlyBird"
+					}
+				},
+				{
+					"friendly_name": "AM Support",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": "AMSupport"
+				},
+				{
+					"friendly_name": "Block 1",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "09:55:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block1"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "10:05:00",
+					"start_timestamp": 0,
+					"end": "11:30:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block3"
+					}
+				},
+				{
+					"friendly_name": "Lunch 1",
+					"start": "11:40:00",
+					"start_timestamp": 0,
+					"end": "12:20:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 5A",
+					"start": "11:40:00",
+					"start_timestamp": 0,
+					"end": "13:05:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "12:20:00",
+					"start_timestamp": 0,
+					"end": "12:30:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Block 5B",
+					"start": "12:30:00",
+					"start_timestamp": 0,
+					"end": "13:55:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "13:05:00",
+					"start_timestamp": 0,
+					"end": "13:15:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Lunch 2",
+					"start": "13:15:00",
+					"start_timestamp": 0,
+					"end": "13:55:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "14:05:00",
+					"start_timestamp": 0,
+					"end": "15:35:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block7"
+					}
+				}
+			],
+			"regex": "FORCE ORANGE DAY",
+			"color": [
+				230,
+				82,
+				24
+			],
+			"hide": false
+		},
+		"async_orange_day": {
+			"friendly_name": "Asynchronous Orange Day",
+			"periods": [
+				{
+					"friendly_name": "Blocks 1/3/5/7",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "15:30:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OrangeDayAsync"
+					}
+				}
+			],
+			"regex": "ASYNC ORANGE",
+			"color": [
+				130,
+				47,
+				13
+			],
+			"hide": true
+		},
+		"early_dismissal_blue": {
+			"friendly_name": "Early Dismissal Blue Day",
+			"periods": [
+				{
+					"friendly_name": "Early Bird",
+					"start": "07:10:00",
+					"start_timestamp": 0,
+					"end": "07:50:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "EarlyBird"
+					}
+				},
+				{
+					"friendly_name": "AM Support",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": "AMSupport"
+				},
+				{
+					"friendly_name": "Block 2",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "09:40:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block2"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "09:50:00",
+					"start_timestamp": 0,
+					"end": "11:00:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block4"
+					}
+				},
+				{
+					"friendly_name": "Lunch 1",
+					"start": "11:10:00",
+					"start_timestamp": 0,
+					"end": "11:50:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 6A",
+					"start": "11:10:00",
+					"start_timestamp": 0,
+					"end": "12:20:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "11:50:00",
+					"start_timestamp": 0,
+					"end": "12:00:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Block 6B",
+					"start": "12:00:00",
+					"start_timestamp": 0,
+					"end": "13:10:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "12:20:00",
+					"start_timestamp": 0,
+					"end": "12:30:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Lunch 2",
+					"start": "12:30:00",
+					"start_timestamp": 0,
+					"end": "13:10:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "13:20:00",
+					"start_timestamp": 0,
+					"end": "14:30:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block8"
+					}
+				}
+			],
+			"regex": "Early Dismissal Blue",
+			"color": [
+				0,
+				92,
+				191
+			],
+			"hide": false
+		},
+		"early_dismissal_orange": {
+			"friendly_name": "Early Dismissal Orange Day",
+			"periods": [
+				{
+					"friendly_name": "Early Bird",
+					"start": "07:10:00",
+					"start_timestamp": 0,
+					"end": "07:50:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "EarlyBird"
+					}
+				},
+				{
+					"friendly_name": "AM Support",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": "AMSupport"
+				},
+				{
+					"friendly_name": "Block 1",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "09:40:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block1"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "09:50:00",
+					"start_timestamp": 0,
+					"end": "11:00:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block3"
+					}
+				},
+				{
+					"friendly_name": "Lunch 1",
+					"start": "11:10:00",
+					"start_timestamp": 0,
+					"end": "11:50:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 5A",
+					"start": "11:10:00",
+					"start_timestamp": 0,
+					"end": "12:20:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "11:50:00",
+					"start_timestamp": 0,
+					"end": "12:00:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Block 5B",
+					"start": "12:00:00",
+					"start_timestamp": 0,
+					"end": "13:10:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "12:20:00",
+					"start_timestamp": 0,
+					"end": "12:30:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Lunch 2",
+					"start": "12:30:00",
+					"start_timestamp": 0,
+					"end": "13:10:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "13:20:00",
+					"start_timestamp": 0,
+					"end": "14:30:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block7"
+					}
+				}
+			],
+			"regex": "Early Dismissal Orange",
+			"color": [
+				130,
+				47,
+				13
+			],
+			"hide": false
+		},
+		"no_school": {
+			"friendly_name": "No School",
+			"periods": [],
+			"regex": "(No School)|(Non-Attendance)|(SCHOOL CLOSED)",
+			"color": [
+				221,
+				221,
+				221
+			],
+			"hide": false
+		},
+		"monday": {
+			"friendly_name": "Wildkit Monday",
+			"periods": [
+				{
+					"friendly_name": "Early Bird",
+					"start": "07:10:00",
+					"start_timestamp": 0,
+					"end": "07:50:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "EarlyBird"
+					}
+				},
+				{
+					"friendly_name": "AM Support",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": "AMSupport"
+				},
+				{
+					"friendly_name": "Block 1",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "09:03:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block1"
+					}
+				},
+				{
+					"friendly_name": "Block 2",
+					"start": "09:08:00",
+					"start_timestamp": 0,
+					"end": "09:41:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block2"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "09:46:00",
+					"start_timestamp": 0,
+					"end": "10:19:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block3"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "10:24:00",
+					"start_timestamp": 0,
+					"end": "10:57:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block4"
+					}
+				},
+				{
+					"friendly_name": "Block 5A",
+					"start": "11:02:00",
+					"start_timestamp": 0,
+					"end": "11:35:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Lunch 1",
+					"start": "11:02:00",
+					"start_timestamp": 0,
+					"end": "11:35:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 5B",
+					"start": "11:40:00",
+					"start_timestamp": 0,
+					"end": "12:13:00",
+					"end_timestamp": 0,
+					"kind": {
+						"ClassOrLunch": "Block5"
+					}
+				},
+				{
+					"friendly_name": "Lunch 2",
+					"start": "11:40:00",
+					"start_timestamp": 0,
+					"end": "12:13:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 6",
+					"start": "12:18:00",
+					"start_timestamp": 0,
+					"end": "12:51:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "12:56:00",
+					"start_timestamp": 0,
+					"end": "13:29:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block7"
+					}
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "13:34:00",
+					"start_timestamp": 0,
+					"end": "14:07:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block8"
+					}
+				}
+			],
+			"regex": "FORCE MONDAY",
+			"color": [
+				26,
+				39,
+				65
+			],
+			"hide": false
+		},
+		"half_day_blue_day": {
+			"friendly_name": "Half Day Blue",
+			"periods": [
+				{
+					"friendly_name": "Early Bird",
+					"start": "07:10:00",
+					"start_timestamp": 0,
+					"end": "07:50:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "EarlyBird"
+					}
+				},
+				{
+					"friendly_name": "AM Support",
+					"start": "08:00:00",
+					"start_timestamp": 0,
+					"end": "08:25:00",
+					"end_timestamp": 0,
+					"kind": "AMSupport"
+				},
+				{
+					"friendly_name": "Block 2",
+					"start": "08:30:00",
+					"start_timestamp": 0,
+					"end": "09:18:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block2"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "09:23:00",
+					"start_timestamp": 0,
+					"end": "10:11:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block4"
+					}
+				},
+				{
+					"friendly_name": "Block 6",
+					"start": "10:16:00",
+					"start_timestamp": 0,
+					"end": "11:04:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "11:09:00",
+					"start_timestamp": 0,
+					"end": "12:00:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block8"
+					}
+				}
+			],
+			"regex": "Half Day Blue",
+			"color": [
+				0,
+				92,
+				191
+			],
+			"hide": false
+		},
+		"open_house": {
+			"friendly_name": "Open House",
+			"periods": [
+				{
+					"friendly_name": "Block 1",
+					"start": "19:00:00",
+					"start_timestamp": 0,
+					"end": "19:10:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse1"
+					}
+				},
+				{
+					"friendly_name": "Block 2",
+					"start": "19:15:00",
+					"start_timestamp": 0,
+					"end": "19:25:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse2"
+					}
+				},
+				{
+					"friendly_name": "Block 3",
+					"start": "19:30:00",
+					"start_timestamp": 0,
+					"end": "19:40:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse3"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "19:45:00",
+					"start_timestamp": 0,
+					"end": "19:55:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse4"
+					}
+				},
+				{
+					"friendly_name": "Block 5",
+					"start": "20:00:00",
+					"start_timestamp": 0,
+					"end": "20:10:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse5"
+					}
+				},
+				{
+					"friendly_name": "Block 6",
+					"start": "20:15:00",
+					"start_timestamp": 0,
+					"end": "20:25:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse6"
+					}
+				},
+				{
+					"friendly_name": "Block 7",
+					"start": "20:30:00",
+					"start_timestamp": 0,
+					"end": "20:40:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse7"
+					}
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "20:45:00",
+					"start_timestamp": 0,
+					"end": "20:55:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "OpenHouse8"
+					}
+				}
+			],
+			"regex": "Open House",
+			"color": [
+				95,
+				69,
+				191
+			],
+			"hide": true
+		},
+		"late_start_blue": {
+			"friendly_name": "Late Start Blue Day",
+			"periods": [
+				{
+					"friendly_name": "Block 2",
+					"start": "09:35:00",
+					"start_timestamp": 0,
+					"end": "10:45:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block2"
+					}
+				},
+				{
+					"friendly_name": "Block 4",
+					"start": "10:55:00",
+					"start_timestamp": 0,
+					"end": "12:05:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block4"
+					}
+				},
+				{
+					"friendly_name": "Lunch 1",
+					"start": "12:15:00",
+					"start_timestamp": 0,
+					"end": "12:55:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 6A",
+					"start": "12:15:00",
+					"start_timestamp": 0,
+					"end": "13:25:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "12:55:00",
+					"start_timestamp": 0,
+					"end": "13:05:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Block 6B",
+					"start": "13:05:00",
+					"start_timestamp": 0,
+					"end": "14:15:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block6"
+					}
+				},
+				{
+					"friendly_name": "Passing Period",
+					"start": "13:25:00",
+					"start_timestamp": 0,
+					"end": "13:35:00",
+					"end_timestamp": 0,
+					"kind": "Passing"
+				},
+				{
+					"friendly_name": "Lunch 2",
+					"start": "13:35:00",
+					"start_timestamp": 0,
+					"end": "14:15:00",
+					"end_timestamp": 0,
+					"kind": "Lunch"
+				},
+				{
+					"friendly_name": "Block 8",
+					"start": "14:25:00",
+					"start_timestamp": 0,
+					"end": "15:35:00",
+					"end_timestamp": 0,
+					"kind": {
+						"Class": "Block8"
+					}
+				}
+			],
+			"regex": "Late Start Blue",
+			"color": [
+				0,
+				92,
+				191
+			],
+			"hide": false
+		}
+	},
+	"typical_schedule": [
+		"no_school",
+		"monday",
+		"orange_day",
+		"blue_day",
+		"orange_day",
+		"blue_day",
+		"no_school"
+	]
+}

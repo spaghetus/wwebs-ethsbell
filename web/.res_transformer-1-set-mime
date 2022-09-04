@@ -1,0 +1,30 @@
+#!/bin/bash
+
+BODY=$(cat)
+
+>&2 echo "log Got request for $REQUESTED"
+
+if [[ "$REQUESTED" == *js ]]
+then
+	>&2 echo "log Set mimetype for js file $REQUESTED"
+	>&2 echo "header Content-Type text/javascript"
+elif [[ "$REQUESTED" == *html ]]
+then
+	>&2 echo "log Set mimetype for html file $REQUESTED"
+	>&2 echo "header Content-Type text/html"
+elif [[ "$REQUESTED" == *css ]]
+then
+	>&2 echo "log Set mimetype for css file $REQUESTED"
+	>&2 echo "header Content-Type text/css"
+else
+	if [[ -n "${HEADER_Content-Type}" ]]; then
+		>&2 echo "log Did nothing, content-type already set"
+	else
+		>&2 echo "log Set automatic mimetype for file $REQUESTED"
+		>&2 echo "header Content-Type $(echo $BODY | file --mime-type -)"
+	fi
+fi
+
+>&2 echo "status 200"
+
+echo $BODY

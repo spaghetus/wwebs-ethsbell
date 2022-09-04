@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Schedule Uploader</title><link rel="stylesheet" href="/config/index.78916cb8.css"><meta name="title" content="ETHSBell"><meta name="description" content="ETHSBell is designed to help Evanston Township High School students be more familiar with the bell schedule and navigate their school day."><meta property="og:type" content="website"><meta property="og:url" content="https://ethsbell.app/"><meta property="og:title" content="ETHSBell"><meta property="og:description" content="ETHSBell is designed to help Evanston Township High School students be more familiar with the bell schedule and navigate their school day."><meta property="og:image" content="/icon.png"><meta name="theme-color"><link rel="stylesheet" href="/include/prelude.c82cce54.css"><script src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.every,Array.prototype.filter,Array.prototype.flat,Array.prototype.includes,Array.prototype.map,ArrayBuffer,document,fetch,JSON,localStorage,Map,Number.parseFloat,Promise,Set,String.prototype.includes,String.prototype.replaceAll,Symbol.iterator,URL,WeakMap,WeakSet" type="module"></script><script src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.every,Array.prototype.filter,Array.prototype.flat,Array.prototype.includes,Array.prototype.map,ArrayBuffer,document,fetch,JSON,localStorage,Map,Number.parseFloat,Promise,Set,String.prototype.includes,String.prototype.replaceAll,Symbol.iterator,URL,WeakMap,WeakSet" nomodule="" defer></script><script src="/include/prelude.4ee72c23.js" type="module"></script><script src="/include/prelude.4fa1016d.js" nomodule="" defer></script><meta http-equiv="Content-Security-Policy" content="default-src 'self';"><script defer src="/config/index.dd2ea809.js" type="module"></script><script defer src="/config/index.8823d274.js" nomodule=""></script></head><body class="background-color"> <nav class="abs foreground-color"> <div class="flex nav-left" id="nav-logo"> <h1><a href="/">ETHSBell</a></h1> </div> <div id="nav-toggle"> <span id="nav-toggle-button" role="button"> <svg height="24" width="24" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg> </span> </div> <div class="flex nav-right" id="nav-links"> <ul> <li><a href="/">Home</a></li> <li><a href="/schedule">Schedule</a></li> <li><a href="/timeline">Timeline</a></li> <li><a href="/config">Config</a></li> <li><a href="/about">About</a></li> </ul> </div> </nav> <div class="background"> <h2>Custom Schedule</h2> <table> <thead> <tr> <th>Period</th> <th>Custom Name</th> <th>Link</th> </tr> </thead> <tbody id="cfg_body"></tbody> </table> <input type="checkbox" id="include_period_name"> <label for="include_period_name">Include default period name when displaying<br>Example: <b id="example_name">Loading...</b></label> <br> <br> <button id="save-schedule">Save Schedule</button> <button id="reset-schedule">Reset Schedule</button> <br> <h2>Default Page</h2> <div> When you open the site, you will be redirected to the default page. </div> <br> <select name="Default Page" id="default-page"> <option value="/">Home</option> <option value="/schedule">Schedule</option> <option value="/timeline">Timeline</option> </select> <button id="save-default">Save Default Page</button> <h2>Custom Colors</h2> <label for="foreground_color">Foreground Color: </label> <input type="color" id="foreground_color"> <br> <label for="background_color">Background Color: </label> <input type="color" id="background_color"> <br> <label for="foreground_text_color">Foreground Text Color: </label> <input type="color" id="foreground_text_color"> <br> <label for="background_text_color">Background Text Color: </label> <input type="color" id="background_text_color"> <br> <label for="schedule_color_background">Use schedule color as background on homepage: </label> <input type="checkbox" id="schedule_color_background"> <br> <br> <button id="save-colors">Save Colors</button> <button id="reset-colors">Reset Colors to Default</button> <br> <hr> <h3>Export</h3> <button id="download">Export Settings</button> <h3>Import</h3> <input type="file" id="cfg"> <br> <button id="upload" disabled>Import</button> <br><br> <div id="instructions_toggle"> [Advanced] Click here for instructions to manually write a config file </div> <div id="instructions"> <p> You can make your own schedule file with a standard text editor. A schedule file should look like this, omitting content after "//". <br> <i>(If you're not sure what this is, don't worry; this is only useful for advanced users. You'll be able to get by just fine with the editor above.)</i> </p> <pre>
+{
+	"schedule": {
+		"EarlyBird": {
+			"name": "Early Bird Class",
+			"url": "https://meet.google.com/whatever"
+		},
+		"Lunch 1": {
+			"name": "Your Lunch 1",
+			"url": "https://meet.google.com/whatever"
+		},
+		"Lunch 2": {
+			"name": "Your Lunch 2",
+			"url": "https://meet.google.com/whatever"
+		},
+		"Block1": {
+			"name": "Your First Period Class",
+			"url": "https://meet.google.com/whatever"
+		},
+		"Block2": {
+			"name": "Second Period Class",
+			"url": "https://classroom.google.com/whatever"
+		}
+		"Block3": {
+			"name": "Class With No Teleconferencing or Classroom Link",
+			"url": undefined
+		}
+		...
+		// You can also define classes that aren't present in the above menu,
+		// if a special schedule is added in the future that uses them.
+	},
+	"foreground_color": "#1a2741",
+	"background_color": "#c34614",
+	"foreground_text_color": "#ffffff",
+	"background_text_color": "#ffffff",
+	// This can be set to any URL, but ideally it should point to a path under our domain.
+	"default_page": "/timeline",
+	"include_period_name": false,
+}</pre> </div> </div> <span class="advisory"></span> <script defer src="/include/advisory.548cfd12.js" type="module"></script><script defer src="/include/advisory.3e23292f.js" nomodule=""></script> </body></html>
