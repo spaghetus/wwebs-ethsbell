@@ -1,0 +1,46 @@
+#!/usr/bin/env node
+
+(async () => {
+	const { exec } = require('child_process');
+	const path = require('path');
+
+	const today_path = path.join(__dirname, '../index');
+
+	let stdout = await new Promise(resolve => {
+		exec(
+			today_path,
+			(_e, stdout, _stderr) => {
+				resolve(stdout)
+			}
+		)
+	});
+	console.error("log " + stdout);
+	const today = JSON.parse(stdout);
+
+	let previous = null
+	let now = []
+	let next = null
+
+	let now_t = (Date.now() / 1000)
+
+	for (period of today.periods) {
+		if (period.end_timestamp < now_t && period.end_timestamp > previous.end_timestamp) {
+			previous = period
+		}
+		if (period.start_timestamp < now_t && period.end_timestamp > now_t) {
+			now.push(period)
+		}
+		if (period.start_timestamp > now_t && period.start_timestamp < next.start_timestamp) {
+			next = period
+		}
+	}
+
+
+	console.error("status 200")
+	console.error("header Content-Type text/json")
+	console.log(JSON.stringify([
+		previous,
+		now,
+		next
+	]))
+})()

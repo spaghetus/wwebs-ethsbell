@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
+const path = require('path')
 
-let spec = JSON.parse(fs.readFileSync("../spec"))
+let spec = JSON.parse(fs.readFileSync(path.join(__dirname, "../spec")))
 
 let today = new Date(Date.now())
 
@@ -11,6 +12,7 @@ let schedule_id = spec.typical_schedule[weekday];
 let schedule = spec.schedule_types[schedule_id]
 
 for (period of schedule.periods) {
+	console.error(period)
 	let [s_hour, s_minute, s_second] = period.start.split(".")
 	let start = new Date(Date.now())
 	start.setHours(s_hour, s_minute, s_second)
