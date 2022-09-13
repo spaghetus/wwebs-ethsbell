@@ -17,6 +17,7 @@ for (period of schedule.periods) {
 	let start = new Date(Date.now())
 	start.setHours(s_hour, s_minute, s_second)
 	let [e_hour, e_minute, e_second] = period.end.split(".")
+	let end = new Date(Date.now())
 	end.setHours(e_hour, e_minute, e_second)
 	period.start_timestamp = start.getTime() / 1000
 	period.end_timestamp = end.getTime() / 1000

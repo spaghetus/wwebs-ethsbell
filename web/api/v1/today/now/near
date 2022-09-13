@@ -24,13 +24,13 @@
 	let now_t = (Date.now() / 1000)
 
 	for (period of today.periods) {
-		if (period.end_timestamp < now_t && period.end_timestamp > previous.end_timestamp) {
+		if (!previous || (period.end_timestamp < now_t && period.end_timestamp > previous.end_timestamp)) {
 			previous = period
 		}
 		if (period.start_timestamp < now_t && period.end_timestamp > now_t) {
 			now.push(period)
 		}
-		if (period.start_timestamp > now_t && period.start_timestamp < next.start_timestamp) {
+		if (!next || (period.start_timestamp > now_t && period.start_timestamp < next.start_timestamp)) {
 			next = period
 		}
 	}
